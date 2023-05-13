@@ -124,10 +124,15 @@
 }
 
 .about-para {
+  text-align: justify;
+  word-spacing: -0.05em;
+  letter-spacing: -0.5px;
   margin: 20px auto;
+  font-size: 24px;
   width: 80%;
   height: 90%;
 }
+
 .Value-title {
   width: 500px;
   margin: 0 auto;
@@ -159,37 +164,35 @@
   line-height: 1.5;
 }
 
-
 .user-page {
   background-image: url("./lightening.jpg");
   background-size: cover;
 }
 
 /*style for 404 page*/
-.four-page{
-    background-color: black;
-    width: 100%;
-    height: 700px;
-    color: white;
+.four-page {
+  background-color: black;
+  width: 100%;
+  height: 700px;
+  color: white;
 }
 
-.four-page h1{
-    text-align: center;
+.four-page h1 {
+  text-align: center;
 }
 
-.four-page a{
-    text-decoration: none;
-    color: white;
-    margin: 100px auto;
-    font-size: 35px;
+.four-page a {
+  text-decoration: none;
+  color: white;
+  margin: 100px auto;
+  font-size: 35px;
 }
 
-.four-page a:hover{
-    color: red;
-    text-decoration: underline;
+.four-page a:hover {
+  color: red;
+  text-decoration: underline;
 }
 
-span{
-    color: red;
+span {
+  color: red;
 }
-
